@@ -10,7 +10,12 @@
 */
 
 @theme {
-  --breakpoint-2xl: 90rem;
+  --breakpoint-sm: 23.4375rem; //375rem
+  --breakpoint-2xl: 90rem; //1440px
+
+  /* md:48rem (768px)
+     xl:	80rem (1280px)  
+  */
 }
 
 @layer base {
