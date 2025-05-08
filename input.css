@@ -35,3 +35,15 @@
   /* font-family */
   --font-barlow: "Barlow", "Arial", "sans-serif";
 }
+
+.btn-shadow-grey:hover,
+.btn-shadow-grey:active {
+  transform: translate(-0.05rem, -0.05rem);
+  box-shadow: 0.15rem 0.15rem #8b98b0;
+}
+
+.btn-shadow-orange:hover,
+.btn-shadow-orange:active {
+  transform: translate(-0.05rem, -0.05rem);
+  box-shadow: 0.15rem 0.15rem #d4a78e;
+}
