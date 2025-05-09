@@ -15,7 +15,7 @@
 
     <title>Virginia | Typemaster pre-launch landing page</title>
   </head>
-  <body class="flex flex-col items-center">
+  <body class="flex flex-col xl:items-center">
     <!--hidden header for accesibility reasons(screen readers)  -->
     <header aria-labelledby="typemaster-page">
       <h1 id="typemaster-page" class="hidden">
@@ -23,7 +23,7 @@
       </h1>
     </header>
     <nav
-      class="flex flex-row items-center justify-between min-w-81.75 mt-6 mb-15.75 md:min-w-172.25 xl:w-277.5"
+      class="bg-amber-500 flex flex-row items-center justify-between ml-6 mr-6 mt-6 mb-15.75 md:ml-10 md:mr-10 md:mt-10 xl:ml-0 xl:mr-0 xl:mt-13.75 xl:mb-20.75 xl:w-277.5"
     >
       <a href="#" aria-label="Typemaster pre-launch landing-page">
         <img src="assets/shared/logo.svg" alt="" />
@@ -47,12 +47,99 @@
       </a>
     </nav>
     <main>
-      <section class="w-2xl h-7 bg-amber-400"></section>
-      <section class="w-2xl h-7 bg-amber-600"></section>
-      <section class="w-2xl h-7 bg-amber-800"></section>
+      <!-- TYPEMASTER KEYBOARD SECTION -->
+      <section
+        class="bg-amber-400 flex flex-col gap-16 ml-6 md:flex-row md:gap-10 md:items-center md:ml-10 xl:gap-31.25 xl:ml-0 xl:justify-center"
+      >
+        <!-- Texts and button container-->
+        <div class="bg-blue-100 flex flex-col gap-8 xl:w-111.25">
+          <h1
+            class="uppercase font-(family-name:--font-barlow) font-black text-5xl text-(--color-dark-grey) xl:text-[3.5rem] xl:leading-[1]"
+          >
+            Typemaster Keyboard
+          </h1>
+
+          <p
+            class="font-(family-name:--font-barlow) font-medium text-base leading-[1.625] text-(--color-middle-grey) xl:text-lg xl:leading-[1.44]"
+          >
+            Improve your productivity and gaming without
+            <br class="xl:hidden" />
+            breaking the bank. Upgrade to a high quality mechanical typing
+            experience.
+          </p>
+
+          <!-- button - realease container -->
+          <div class="bg-red-200 flex gap-8 items-center md:gap-9 xl:gap-10">
+            <!-- BUTTON -->
+            <a
+              href="#"
+              aria-label="Pre-order now"
+              class="group focus:outline focus-within:outline-offset-4 focus:outline-[var(--color-dark-orange)]"
+            >
+              <div
+                class="bg-[var(--color-dark-orange)] w-[9.375rem] h-12 rounded-lg flex items-center justify-center md:w-[10.9375rem] md:h-[3.625rem] hover:bg-[var(--color-light-orange)] duration-300 active:bg-[#ff9c629d] btn-shadow-orange"
+              >
+                <p
+                  class="uppercase font-(family-name:--font-barlow) font-bold text-base leading-[1.625] text-(--color-white)"
+                >
+                  pre-order now
+                </p>
+              </div>
+            </a>
+            <div>
+              <p
+                class="uppercase font-(family-name:--font-barlow) font-bold text-base leading-[1.625] text-(--color-middle-grey)"
+              >
+                Release on 5/27
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- container with images and grey container on the right -->
+        <div class="xl:relative">
+          <div class="bg-blue-400 xl:w-135 xl:h-120">
+            <!-- mobile img -->
+            <img
+              class="rounded-l-3xl md:hidden"
+              src="assets/mobile/image-keyboard.jpg"
+              alt=""
+            />
+
+            <!-- tablet image -->
+            <img
+              class="hidden md:block md:w-auto md:h-[55.3vw] md:object-cover md:object-left-top xl:hidden"
+              src="assets/tablet/image-keyboard.jpg"
+              alt=""
+            />
+
+            <!-- desktop image -->
+            <img
+              class="hidden xl:block xl:rounded-3xl"
+              src="assets/desktop/image-keyboard.jpg"
+              alt=""
+            />
+          </div>
+
+          <!-- grey empty container -->
+          <div
+            class="xl:bg-(--color-light-grey) hidden xl:block xl:w-63.75 xl:h-60 xl:rounded-3xl xl:absolute xl:top-0 xl:-right-71.25"
+          ></div>
+        </div>
+      </section>
+
+      <!-- MECANICAL WIRELESS KEYBOARD SECTION -->
+      <section class="w-[100vw] h-7 bg-amber-600"></section>
+      <section class="w-[100vw] h-7 bg-amber-800"></section>
     </main>
-    <footer class="bg-red-600 mt-24 pb-12.5">
-      <p>Typemaster 2021 | All Rights Reserved</p>
+    <footer
+      class="bg-red-600 flex justify-center mt-24 pb-12.5 md:mt-35.5 xl:mt-32"
+    >
+      <p
+        class="font-(family-name:--font-barlow) font-medium text-base leading-[1.625] text-(--color-middle-grey)"
+      >
+        <span class="font-bold">Typemaster 2021</span> | All Rights Reserved
+      </p>
     </footer>
   </body>
 </html>
