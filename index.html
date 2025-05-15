@@ -130,19 +130,21 @@
 
       <!-- MECANICAL WIRELESS KEYBOARD SECTION -->
       <section
-        class="bg-amber-100 flex flex-col gap-18.75 mb-27.75 md:gap-18 md:mb-35.5 md:ml-10 md:mr-10 xl:ml-0 xl:mr-0 xl:flex-row xl:gap-31.25 xl:items-center xl:w-277.5"
+        class="bg-amber-100 flex flex-col gap-18.75 mb-27.75 md:gap-18 md:mb-35.5 md:ml-10 md:mr-10 xl:ml-0 xl:mr-0 xl:mb-42 xl:flex-row xl:gap-31.25 xl:items-center xl:w-277.5"
       >
         <!-- container with images -->
-        <div class="relative h-[51.46vw] md:h-[41.66vw] xl:h-120 xl:w-2/3">
+        <div
+          class="bg-red-700 relative h-[51.46vw] mr-6 md:h-[41.66vw] md:mr-0 xl:h-120 xl:w-2/3"
+        >
           <div
-            class="flex flex-row gap-6 mr-6 absolute -left-[24px] md:mr-0 md:left-0 md:gap-7.25"
+            class="bg-amber-400 flex flex-row gap-6.5 absolute -left-[24px] md:left-0 md:gap-10.5"
           >
             <!-- grey empty container -->
             <div
               class="xl:bg-(--color-light-grey) hidden xl:block xl:w-63.75 xl:h-59 xl:rounded-3xl xl:absolute xl:z-4 xl:bottom-0 xl:-left-71.25"
             ></div>
             <!-- container blend-mode -->
-            <div class="relative inset-0">
+            <div class="relative">
               <img
                 class="h-[51.46vw] rounded-r-3xl md:hidden"
                 src="assets/mobile/image-phone-and-keyboard.jpg"
@@ -154,7 +156,7 @@
                 alt=""
               />
               <img
-                class="hidden xl:block xl:h-120 xl:w-auto xl:rounded-3xl"
+                class="hidden xl:block xl:h-120 xl:rounded-3xl"
                 src="assets/desktop/image-phone-and-keyboard.jpg"
                 alt=""
               />
@@ -202,7 +204,126 @@
         </div>
       </section>
 
-      <section class="w-[100vw] h-7 bg-amber-800"></section>
+      <!-- DETAILS SECTION -->
+      <section
+        class="bg-red-800 ml-6 mr-6 grid grid-cols-1 gap-16 md:ml-10 md:mr-10 md:grid-cols-2 md:grid-rows-2 md:gap-x-30 md:gap-y-18 xl:flex xl:gap-7.5"
+      >
+        <!-- HIGHLY COMPATIBLE container -->
+        <div
+          class="bg-amber-300 flex flex-col gap-12 items-center md:items-start md:gap-10 xl:gap-12"
+        >
+          <div
+            class="bg-[var(--color-dark-orange)] w-16.25 h-16.25 flex items-center justify-center rounded-2xl"
+          >
+            <img src="assets/shared/icon-compatible.svg" alt="" />
+          </div>
+          <!-- texts container -->
+          <div
+            class="flex flex-col gap-6 items-center text-center md:items-start md:text-start"
+          >
+            <h2
+              class="uppercase font-(family-name:--font-barlow) font-black text-2xl leading-[1.17] text-(--color-dark-grey)"
+            >
+              highly <br />
+              compatible
+            </h2>
+            <p
+              class="font-(family-name:--font-barlow) text-base leading-[1.625] text-(--color-middle-grey)"
+            >
+              Easy to use and works well with all major computer brands, gaming
+              consoles and mobile devices. Plug & play, no installation or
+              driver needed.
+            </p>
+          </div>
+        </div>
+
+        <!-- WIRELESS WITH BLUETOOTH container -->
+        <div
+          class="bg-amber-300 flex flex-col gap-12 items-center md:items-start md:gap-10 xl:gap-12"
+        >
+          <div
+            class="bg-[var(--color-dark-orange)] w-16.25 h-16.25 flex items-center justify-center rounded-2xl"
+          >
+            <img src="assets/shared/icon-bluetooth.svg" alt="" />
+          </div>
+          <!-- texts container -->
+          <div
+            class="flex flex-col gap-6 items-center text-center md:items-start md:text-start"
+          >
+            <h2
+              class="uppercase font-(family-name:--font-barlow) font-black text-2xl leading-[1.17] text-(--color-dark-grey)"
+            >
+              wireless <br />
+              with bluetooth
+            </h2>
+            <p
+              class="font-(family-name:--font-barlow) text-base leading-[1.625] text-(--color-middle-grey)"
+            >
+              Powerful 2.4G RF technology allows you to connect the cordless
+              keyboard from up to 30ft away. Simply plug the unifying receiver
+              into your computer.
+            </p>
+          </div>
+        </div>
+
+        <!-- HIGH CAPACITY BATTERY container -->
+        <div
+          class="bg-amber-300 flex flex-col gap-12 items-center md:items-start md:gap-10 xl:gap-12"
+        >
+          <div
+            class="bg-[var(--color-dark-orange)] w-16.25 h-16.25 flex items-center justify-center rounded-2xl"
+          >
+            <img src="assets/shared/icon-battery.svg" alt="" />
+          </div>
+          <!-- texts container -->
+          <div
+            class="flex flex-col gap-6 items-center text-center md:items-start md:text-start"
+          >
+            <h2
+              class="uppercase font-(family-name:--font-barlow) font-black text-2xl leading-[1.17] text-(--color-dark-grey)"
+            >
+              high capacity <br />
+              battery
+            </h2>
+            <p
+              class="font-(family-name:--font-barlow) text-base leading-[1.625] text-(--color-middle-grey)"
+            >
+              Equipped with a long-lasting built-in battery, you’ll never have
+              to spend a dime on replaceable ones. Enjoy 40 hours of usage time
+              between charges.
+            </p>
+          </div>
+        </div>
+
+        <!-- RGB BACKLIT MODES container -->
+        <div
+          class="bg-amber-300 flex flex-col gap-12 items-center md:items-start md:gap-10 xl:gap-12"
+        >
+          <div
+            class="bg-[var(--color-dark-orange)] w-16.25 h-16.25 flex items-center justify-center rounded-2xl"
+          >
+            <img src="assets/shared/icon-light.svg" alt="" />
+          </div>
+          <!-- texts container -->
+          <div
+            class="flex flex-col gap-6 items-center text-center md:items-start md:text-start"
+          >
+            <h2
+              class="uppercase font-(family-name:--font-barlow) font-black text-2xl leading-[1.17] text-(--color-dark-grey)"
+            >
+              rgb backlit <br />
+              modes
+            </h2>
+            <p
+              class="font-(family-name:--font-barlow) text-base leading-[1.625] text-(--color-middle-grey)"
+            >
+              Choose from 4 backlight brightness levels and adjustable breathing
+              speed. Each key glows intensely in the dark and helps you type in
+              low light conditions.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer
       class="bg-red-600 flex justify-center mt-24 pb-12.5 md:mt-35.5 xl:mt-32"
